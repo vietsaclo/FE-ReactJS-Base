@@ -290,4 +290,16 @@ export class PublicModules {
       gaurd: gaurd,
     }
   }
+
+  static fun_getImageViewFromServer = (imageName) => {
+    const server = Apis.API_HOST;
+    const api = Apis.API_TAILER.IMG_VIEW;
+    return server + api + imageName;
+  }
+
+  static fun_scrollInto(ref) {
+    if (ref) {
+      window.scrollTo(0, ref.current.offsetTop);
+    }
+  }
 }
