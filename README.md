@@ -1,2 +1,2 @@
-# wax-tutorial
-waxjs call api smart contract
+# reactjs-base
+setup project reactjs base
